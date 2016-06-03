@@ -17,6 +17,8 @@ datafile$Year<-year(datafile$date1)
 datafile$yDay<-yday(datafile$date1)
 datafile$Month<-month(datafile$date1)
 
+#This is a test!!!
+
 #give the count data a nicer name
 names(datafile)[which(names(datafile)=="individuals")]<-"Count"
 
